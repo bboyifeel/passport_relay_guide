@@ -26,6 +26,8 @@ For the operation, you have to have at least two phones with NFC support and hon
 7. Once the emulator has received OK\_RAPDU, it can be used to replay communication.
 8. Withing couple of seconds, the protocol execution will be replayed and the fake reader will be able to determine whether it is the same document or not.
 
+## Examples
+
 Example of the BAC relay unlinkability attack execution with the same passport:
 ![Screenshot](figs/bac_unlinkability_demo/bac_reader_relay_success.png "Fake reader")
 ![Screenshot](figs/bac_unlinkability_demo/bac_emulator_relay_success.png "Emulator")
