@@ -25,3 +25,17 @@ For the operation, you have to have at least two phones with NFC support and hon
 6. To demonstrate an attack, type in can number of the document in the legitimate reader (PASSPORT READER). Then randomly chose a document to be tested and apply fake passport reader to it. It first requests whether chip implements any Supplementary protocols and if it is, then signal emulator with a OK\_RAPDU ("9000").
 7. Once the emulator has received OK\_RAPDU, it can be used to replay communication.
 8. Withing couple of seconds, the protocol execution will be replayed and the fake reader will be able to determine whether it is the same document or not.
+
+Example of the BAC relay unlinkability attack execution with the same passport:
+![Screenshot](figs/bac_unlinkability_demo/bac_reader_relay_success.png "Fake reader")
+![Screenshot](figs/bac_unlinkability_demo/bac_emulator_relay_success.png "Emulator")
+![Screenshot](figs/bac_unlinkability_demo/bac_reader_success.jpg "Legitimate reader")
+
+Example of the BAC relay unlinkability attack execution with different passport:
+
+
+Example of the PACE relay unlinkability attack execution with the same passport:
+
+Example of the PACE relay unlinkability attack execution with different passport:
+
+
