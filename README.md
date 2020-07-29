@@ -26,7 +26,7 @@ For the operation, you have to have at least two phones with NFC support and hon
 7. Once the emulator has received OK\_RAPDU, it can be used to replay communication.
 8. Withing couple of seconds, the protocol execution will be replayed and the fake reader will be able to determine whether it is the same document or not.
 
-# NOTE:
+## NOTE
 Android NFC callback services work only with the assumption that the first received command is a $SELECT\_APDU$, otherwise, Android device returns $RAPDU = 6B00$ (SW = 0x6B00: WRONG P1P2) or $RAPDU = 6982$ (SW = 0x6982: SECURITY STATUS NOT SATISFIED). This assumption complicates implementation of an Android app passport emulation that works with PACE. Such an issue is not crucial and can be resolved in couple of ways:
 
 - By rooting the phone and using Xposed framework \cite{xposed}, one can alter APDU handling Android process and redirect every APDU to the emulator app.
