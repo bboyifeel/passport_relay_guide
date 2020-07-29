@@ -32,10 +32,17 @@ Example of the BAC relay unlinkability attack execution with the same passport:
 ![Screenshot](figs/bac_unlinkability_demo/bac_reader_success.jpg "Legitimate reader")
 
 Example of the BAC relay unlinkability attack execution with different passport:
-
+![Screenshot](figs/bac_unlinkability_demo/bac_reader_relay_fail.png "Fake reader")
+![Screenshot](figs/bac_unlinkability_demo/bac_emulator_relay_fail.png "Emulator")
+![Screenshot](figs/bac_unlinkability_demo/bac_reader_fail.jpg "Legitimate reader")
 
 Example of the PACE relay unlinkability attack execution with the same passport:
+![Screenshot](figs/pace_unlinkability_demo/fake_reader_the_same.png "Fake reader")
+![Screenshot](figs/pace_unlinkability_demo/emulator_the_same.png "Emulator")
+![Screenshot](figs/pace_unlinkability_demo/reader_the_same.jpg "Legitimate reader")
 
 Example of the PACE relay unlinkability attack execution with different passport:
-
+![Screenshot](figs/pace_unlinkability_demo/fake_reader_different.png "Fake reader")
+![Screenshot](figs/pace_unlinkability_demo/emulator_different.png "Emulator")
+![Screenshot](figs/pace_unlinkability_demo/reader_different.jpg "Legitimate reader")
 
